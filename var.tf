@@ -25,19 +25,19 @@ variable "timeout_minutes" {
 }
 
 variable "handler_name" {
-    description = "Controls how you are charged for read and write throughput and how you manage capacity."
+    description = "setting the handler."
     type        = string
     default = "README.md"
 }
 
 variable "runtime" {
-    description = "Controls how you are charged for read and write throughput and how you manage capacity."
+    description = "runtime sdk for lambda."
     type        = string
     default = "python3.6"
 }
 
 variable "timeout" {
-    description = "Controls how you are charged for read and write throughput and how you manage capacity."
+    description = "timeout parameter set."
     type        = number
     default = 900
 }

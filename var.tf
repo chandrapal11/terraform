@@ -27,7 +27,7 @@ variable "timeout_minutes" {
 variable "handler_name" {
     description = "setting the handler."
     type        = string
-    default = "README.md"
+    default = "lambda_function"
 }
 
 variable "runtime" {
